@@ -1,12 +1,9 @@
-ui-select2  (deprecated)  [![Build Status](https://travis-ci.org/angular-ui/ui-select2.png)](https://travis-ci.org/angular-ui/ui-select2)
+ui-select2  (using Fork since main one is deprecated)
 ========================
 
 # Annoucement
 
-
-This **directive is now obsolete**. A new initiative, more active, and 100% angular is available at https://github.com/angular-ui/ui-select.
-
-As development slowed down on ui-select2, it is getting unlikely that bugs will be fixed. So the new alternative should be used as soon as possible.
+Need to be moved to https://github.com/angular-ui/ui-select.
 
 # Description
 

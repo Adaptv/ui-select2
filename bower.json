@@ -1,6 +1,6 @@
 {
   "author": "AngularUI",
-  "name": "angular-ui-select2",
+  "name": "adapt-angular-ui-select2",
   "version": "0.0.5",
   "homepage": "http://angular-ui.github.com",
   "keywords": [
@@ -8,6 +8,10 @@
     "angularui",
     "select2"
   ],
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/Adaptv/ui-select2.git"
+  },
   "main": "./src/select2.js",
   "dependencies": {
     "angular": ">=1.2.0",
