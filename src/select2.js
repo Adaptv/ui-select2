@@ -1,3 +1,8 @@
+angular.module('ui.config', []).value('ui.config', {});
+angular.module('ui.filters', ['ui.config']);
+angular.module('ui.directives', ['ui.config']);
+angular.module('ui', ['ui.filters', 'ui.directives', 'ui.config']);
+
 /**
  * Enhanced Select2 Dropmenus
  *
@@ -5,6 +10,8 @@
  *     This change is so that you do not have to do an additional query yourself on top of Select2's own query
  * @params [options] {object} The configuration options passed to $.fn.select2(). Refer to the documentation
  */
+
+
 angular.module('ui.select2', []).value('uiSelect2Config', {}).directive('uiSelect2', ['uiSelect2Config', '$timeout', function (uiSelect2Config, $timeout) {
   var options = {};
   if (uiSelect2Config) {
